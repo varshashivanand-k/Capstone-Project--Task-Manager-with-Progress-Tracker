@@ -61,62 +61,11 @@ Stored as a JSON array of objects:
 - **`tags`**: Array of strings to categorize tasks (e.g., `["home", "personal"]`)
 - **`completed`**: Boolean value indicating whether the task is done (`true` or `false`)
 
-### 🔄 Event Flow Diagram
-
-#### 📝 Task Creation Flow
-
-[User submits the form]
-↓
-validateTaskInput()
-↓
-Create task object
-↓
-saveTasks(tasks)
-↓
-renderTaskList(tasks)
-↓
-[Task appears in the UI]
-
-
-#### 🧑‍💻 User Actions
-
-- **Edit Task**
-→ Click "Edit"
-→ Prefill form with task details
-→ Submit updates
-→ saveTasks(tasks)
-→ renderTaskList(tasks)
-
-
-- **Delete Task**
-→ Click "Delete"
-→ Show confirmation
-→ Remove task from list
-→ saveTasks(tasks)
-→ renderTaskList(tasks)
-
-
-- **Complete Task**
-→ Click "Mark Complete"
-→ Toggle task.completed = true/false
-→ saveTasks(tasks)
-→ renderTaskList(tasks)
-
 ## 📱 Mobile Optimization
 
 - 🎚️ Theme toggle button shown at the top-right corner
 - 📦 Task cards stack vertically
 - 🎨 Text colors adapt automatically for light/dark mode
-
----
-
-## 🌱 Future Enhancements
-
-- 🔍 Search and filter by tags or priority  
-- 📅 Calendar view of due tasks  
-- 📤 Export/Import tasks as JSON  
-- 🔄 Sync to cloud (Firebase, Supabase)  
-- 🔐 Multi-user support and login  
 
 ---
 
@@ -130,6 +79,14 @@ renderTaskList(tasks)
 | **LocalStorage API** | Data persistence               |
 
 ---
+## 🌱 Future Enhancements
+
+- 🔍 Search and filter by tags or priority  
+- 📅 Calendar view of due tasks  
+- 📤 Export/Import tasks as JSON  
+- 🔄 Sync to cloud (Firebase, Supabase)  
+- 🔐 Multi-user support and login  
+
 ## Developed By:
 - Varsha Shivanand K
 ---
