@@ -129,7 +129,7 @@ renderTaskList(tasks)
 | **JS (Modules)**     | App logic                      |
 | **LocalStorage API** | Data persistence               |
 
-
+---
 ##Developed By:
 - Varsha Shivanand K
 ---
