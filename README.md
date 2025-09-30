@@ -50,7 +50,7 @@ Stored as a JSON array of objects:
     "completed": false
   }
 ]
-
+```
 ### 📋 Task Object Fields
 
 - **`id`**: Unique identifier for the task (e.g., `"task123"`)
@@ -130,6 +130,7 @@ renderTaskList(tasks)
 | **LocalStorage API** | Data persistence               |
 
 ---
-##Developed By:
+## Developed By:
 - Varsha Shivanand K
 ---
+```
